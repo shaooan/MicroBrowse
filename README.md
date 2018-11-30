@@ -1,10 +1,16 @@
-###Endless
+
+APP Name：MicroBrowser
+
+Support Email: dobohq690@163.com
+
+
+###MicroBrowser
 
 A (Mobile)Safari-like web browser for iOS (wrapping around UIWebView, of
 course) with a design goal of increased security and privacy.
 
 Current builds are available for free in the
-[App Store](https://itunes.apple.com/us/app/endless-browser/id974745755?mt=8).
+[App Store](https://itunes.apple.com/us/app/endless-browser/id1444728533?mt=8).
 
 Please see the [LICENSE](https://github.com/jcs/endless/blob/master/LICENSE)
 file for redistribution terms.  Redistribution of this software in binary
