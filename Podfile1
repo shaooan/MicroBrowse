@@ -1,0 +1,11 @@
+platform :ios, "7.0"
+
+pod "InAppSettingsKit" , "2.3.1"
+pod "WYPopoverController", :git => "https://github.com/sammcewan/WYPopoverController.git"	#(0.3.5)
+pod "DTFoundation" , "1.7.7"
+pod "OrderedDictionary" . "1.2"
+pod "QuickDialog", :git => "https://github.com/jcs/QuickDialog.git"	#1.0.2
+
+target "Endless Tests", :exclusive => true do
+	pod "OCMock", "3.1.1"
+end

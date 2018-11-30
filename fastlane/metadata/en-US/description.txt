@@ -1,0 +1,15 @@
+MicroBrowser is a free web browser built with privacy and security in mind.
+
+- Multiple tabs with automatic blocking of non-touch-initiated popups
+
+- Integrated full HTTPS Everywhere ruleset to do on-the-fly URL rewriting to force requests over TLS/SSL where supported, including setting the secure bit on received cookies and auto-detection of redirection loops
+
+- Auto-destroys non-whitelisted cookies and local storage (even within the same tab) that has not been accessed by any other tab within a configurable amount of time (defaults to 30 minutes) to improve privacy after browsing within a long-running tab
+
+- Per-host configuration for blocking Javascript, external connections (websockets, media, etc.), WebRTC, fonts, and overriding user agent
+
+- HTTP Strict Transport Security (RFC6797) implementation with Chromium's large preload list
+
+- Blocks non-whitelisted mixed-content requests (HTTP elements on an HTTPS page), shows broken padlock
+
+- Blocks pages loaded from non-local networks (i.e., the internet) from trying to load sub-requests (e.g., images, iframes, ajax) from hosts that are on local networks such as routers and other insecure devices

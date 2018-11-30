@@ -1,0 +1,6 @@
+framework module GDService {
+  umbrella header "GDService.h"
+
+  export *
+  module * { export * }
+}
